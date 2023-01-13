@@ -128,7 +128,7 @@ function buildCharts(sample) {
     var gaugeData = [{
     domain: { x: [0, 1], y: [0, 1] },
 		value: washingFrequency,
-		title: { text: "<h1>Belly Button Washing Frequency</h1><br>Scrubes per Week" },
+		title: { text: "<b>Belly Button Washing Frequency</b><br>Scrubes per Week" },
 		type: "indicator",
 		mode: "gauge+number",
     gauge: {
